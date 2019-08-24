@@ -11,14 +11,14 @@ Before getting started, make sure that you have a JavaScript console open (like 
 Fix the syntax & style issues with the three objects below:
 
 ```js
-{firstName "Josh", lastname: "Lehman" }
-{a: 1, b:2 c: 3 d 4}
+{firstName: "Josh", lastName: "Lehman" }
+{a: 1, b: 2, c: 3, d: 4}
 {
-    animal: "dog"
+    animal: "dog",
     noise: "bark",
         age: 3,
-  type "Labrador"
-     color: "Yellow",
+  type: "Labrador",
+     color: "Yellow"
 }
 ```
 
@@ -26,10 +26,26 @@ Fix the syntax & style issues with the three objects below:
 
 1.  Create an object that represents *you*. It should contain your first name,
     last name, age and hometown.
+    var me = {
+    firstName: "Michael",
+    lastName: "Naccarato",
+    sex: "Male",
+    height: "6 feet 5 inches",
+    age: 54,
+    favoriteMovie: 'Star Wars',
+    favoriteBook: 'Bible',
+    favoriteVacationSpot: 'Ocean Shores' }
 
 2.  Add three more key/value pairs to your object that represent other attributes
     of yourself. Ideas include (but are not limited to):
     - Favorite TV Shows/Movies/Sports/Activities etc.
+    
+    me.FavTVShow = "Animal Kingdom";
+    me.FavSport = "Basketball";
+    me.FavActivity = "Walking";
+    me.Occupation = "Full Stack Web Developer";
+    me.DateOfBirth = "11/02/1964";
+    
     - Occupation
     - Date of Birth
     - Pets (number of pets, names of pets, etc.)
