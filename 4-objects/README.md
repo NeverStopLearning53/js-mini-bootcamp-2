@@ -90,16 +90,25 @@ Fix the syntax & style issues with the three objects below:
     object is called `you`):
 
     ```js
-    you.name.last; // => YOUR LAST NAME
+    me.name = {first: "Michael", middle: "Joseph", last: "Naccarato"};
+    me.name.last; // => YOUR LAST NAME
     ```
 
 4.  Look up your favorite movie on IMDB, and make an object that represents some
     aspects of that movie, *e.g.*:
-    - Title
-    - Director
-    - Year released
-    - Rating
-    - Actors
+    - Title - Star Wars - Episode IV - A New Hope
+    - Director George Lucas
+    - Year released 1977
+    - Rating PG
+    - Actors Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guiness, Peter Cushing, Peter Mayhew
+    
+    let favoriteMovie = {
+    
+    Title: 'Star Wars - Episode IV - A New Hope',
+    Director: 'George Lucas',
+    YearReleased: '1977',
+    Rating: PG,
+    Ac
 
     **HINT:** Most movies have multiple actors. What data-structure do we use to
     represent a collection of similar things?
