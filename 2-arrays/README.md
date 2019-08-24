@@ -10,16 +10,16 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
 1. Using the array: `["cat", "fox", "dog", "monkey"]`, what is the index of:
 
-   + "dog"?
-   + "monkey"?
-   + "cat"?
+   + "dog"? 2
+   + "monkey"? 3
+   + "cat"? 0
 
 2. Fix the syntax/style in the following arrays:
 
   ```js
-  [ 1, 3 4 7,9, ]
-  "the""quick""brown","fox" "jumped","over" the lazy, "dog",  ]
-  [true false,true
+  [ 1, 3, 4, 7, 9 ]
+  ["the","quick","brown","fox", "jumped","over", "the", "lazy", "dog" ]
+  [true, false, true]
   ```
 
 3. Create arrays in the *global scope* of your program consisting of strings that represent:
