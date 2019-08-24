@@ -26,6 +26,7 @@ Fix the syntax & style issues with the three objects below:
 
 1.  Create an object that represents *you*. It should contain your first name,
     last name, age and hometown.
+    ```js
     var me = {
     firstName: "Michael",
     lastName: "Naccarato",
@@ -35,16 +36,19 @@ Fix the syntax & style issues with the three objects below:
     favoriteMovie: 'Star Wars',
     favoriteBook: 'Bible',
     favoriteVacationSpot: 'Ocean Shores' }
+    ```
 
 2.  Add three more key/value pairs to your object that represent other attributes
     of yourself. Ideas include (but are not limited to):
     - Favorite TV Shows/Movies/Sports/Activities etc.
+    ```js
     
     me.FavTVShow = "Animal Kingdom";
     me.FavSport = "Basketball";
     me.FavActivity = "Walking";
     me.Occupation = "Full Stack Web Developer";
     me.DateOfBirth = "11/02/1964";
+    ```
     
     - Occupation
     - Date of Birth
