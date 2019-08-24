@@ -86,6 +86,17 @@ Before getting started, make sure that you have a JavaScript console open (like 
    // 1. Change all odd numbers to be those numbers multiplied by two:
    var numbers = [4, 9, 7, 2, 1, 8];
    // TODO: your code here
+   var numbers = [4, 9, 7, 2, 1, 8];
+   // iterate through array ;
+   for (i = 0; i < numbers.length; i++) {
+
+
+   //first modify odd numbers only;
+   if ((numbers[i] % 2 ) === 0 ) {
+    numbers[i] = numbers[i] * 2;
+      }
+   } 
+
    numbers; // => [4, 18, 14, 2, 2, 8]
 
    // 2. Fix the typos by replacing each element with a correctly spelled version
