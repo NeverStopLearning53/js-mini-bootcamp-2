@@ -100,8 +100,11 @@ Before getting started, make sure that you have a JavaScript console open (like 
    numbers; // => [4, 18, 14, 2, 2, 8]
 
    // 2. Fix the typos by replacing each element with a correctly spelled version
-   var places = ['snfranisco', 'oacklannd', 'santacrus']
+   var places = ["snfranisco", "oacklannd", "santacrus"];
    // TODO: your code here
+   places[0] = "san francisco";
+   places[1] = "oakland";
+   places[2] = "santa cruz";
    places; // => ['san francisco', 'oakland', 'santa cruz']
    ```
 
@@ -113,6 +116,7 @@ Before getting started, make sure that you have a JavaScript console open (like 
    ```js
    function nth(array, index) {
      // TODO: your code here
+     return array[index];
    }
    var animals = ['dog', 'cat', 'gerbil'];
    nth(animals, 2); // => 'gerbil'
