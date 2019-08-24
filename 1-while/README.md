@@ -19,18 +19,8 @@ Before getting started, make sure that you have a JavaScript console open (like 
    sum(5); // => 15
    
    function factorial(n) {
-  // TODO: your code here
-  let total = 1;
-  while (n > 1) {
-    total = n * total;
-    n = n - 1;
+   // TODO: your code here
 
-  }
-  return total;
-}
-console.log(factorial(3)); // => 6
-console.log(factorial(4)); // => 24
-console.log(factorial(5)); // => 120
    ```
 
 2. **Factorial of `n`:** The factorial of `n` is the *product* of all the
@@ -39,6 +29,17 @@ console.log(factorial(5)); // => 120
    ```js
    function factorial(n) {
      // TODO: your code here
+        let total = 1;
+   while (n > 1) {
+    total = n * total;
+    n = n - 1;
+
+   }
+   return total;
+   }
+   console.log(factorial(3)); // => 6
+   console.log(factorial(4)); // => 24
+   console.log(factorial(5)); // => 120
    }
    factorial(3); // => 6
    factorial(4); // => 24
@@ -71,10 +72,10 @@ console.log(factorial(5)); // => 120
      }
      return repeatStr;
    }
-console.log(repeatString('dog', 0)); // => ''
-console.log(repeatString('dog', 1)); // => 'dog'
-console.log(repeatString('dog', 2)); // => 'dogdog'
-console.log(repeatString('dog', 3)); // => 'dogdogdog'
+   console.log(repeatString('dog', 0)); // => ''
+   console.log(repeatString('dog', 1)); // => 'dog'
+   console.log(repeatString('dog', 2)); // => 'dogdog'
+   console.log(repeatString('dog', 3)); // => 'dogdogdog'
    ```
 
    Your task is to implement the `repeatString` function using a `while` loop.
