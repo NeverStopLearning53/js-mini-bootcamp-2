@@ -1,4 +1,5 @@
 # Part V: Higher-Order Functions
+A function that can take one or more functions as argument and/or return a function as its value / Also called a Call-back Function.
 
 Before getting started, make sure that you have a JavaScript console open (like <a href="http://www.repl.it/languages/javascript" target="_blank">repl.it</a>), so you can complete these exercises.
 
