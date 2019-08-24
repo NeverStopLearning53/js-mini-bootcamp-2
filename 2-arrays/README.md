@@ -51,7 +51,12 @@ Before getting started, make sure that you have a JavaScript console open (like 
    ```js
    var arr = [2, 3, 4];
    // your code here
+   // Using Push and unshift make this array contain the nuimbers 0 -> 7;
+   arr.push(5,6,7);
+   arr.unshift(0,1);
+
    arr; // => [0, 1, 2, 3, 4, 5, 6, 7]
+   
    ```
 
 2. What is *returned* by `push`? Before throwing this into the console, form a
